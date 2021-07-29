@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head> <!--Header-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Team Nayeon</title> <!--What displays on website tab-->
+   <link href="style.css" rel="stylesheet" type="text/css" /> <!--CSS file-->
+  <meta name="description" content="The best team ever">
+ 
+  <!--Fonts: I imported the fonts from google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<!--Font name: Source Code Pro. Link: https://fonts.google.com/specimen/Source+Code+Pro#standard-styles -->
+  <meta name="author" content="Alex"> 
+
+<!--Css are on another file -->
+
+
+  <header style="margin-left: -8px;">
+      <div class="topNav"> <!--Top Navigation Bar-->     
+        
+
+        <!--List of different sections-->
+        <a class="active" href="#Contact">Contact</a>
+        <a class="active" href="#Srivant">Team Captain</a>
+        <a class="active" href="#Members">Members</a>
+        <a class="active" href="#Mascot">Mascot</a>
+        <a class="active" href="#About">About</a>
+        <a class="active" href="#Home">Home</a>
+
+        <h4 id="Title1">Team Nayeon</h4> <!--Our team name on the left hand side of the navbar-->
+        
+      </div>
+      
+  </header>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <!--<h1 class="Team_Name"><center> Team Nayeon </center></h1> -->
+
+    <div id="Home" class="Homepage">
+ 
+        <!--Beginning text in hero page:-->
+        <h1 class="mainheading">Welcome to Team Nayeon</h1> 
+        <h2 style="margin-left: 10%;"><b>The best team ever!</b></h2>
+        
+
+        <!--Below are the different animated boxes that are in the hero page. The 
+        actual code is in the css -->
+        
+       <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            
+        </div>
+        <img  style="z-index: 100;" src="2021-07-26.png" height=200px
+  alt = "Logo" id="LogoImage"> <!--Our logo-->
+
+  </div>
+  <div id="About" class="Aboutpage">
+      <!--Our about page. the id lets us click the about button on the navbar to scroll to this section.
+    the styling is in the aboutpage class-->
+    <h1>About us:</h1>
+    <p class="minitext">Hi! We are a group of students that really enjoy science. As a team, we managed to
+       win the Division II Trivia Night while competing against some tough opponents. We also performed really 
+       well in the chess tournament and had two of our members place in the top 3. Individually, each 
+       of us is also very decorated with many accolades and lots of achievements. These range from excelling in
+        STEM fields such as in prestigious competitions like the AMC & Science Olympiad to
+         winning art competitions and sports tournaments. </p>
+         <!--The paragraph above is a regular paragraph with the class "minitext". 
+        The image below is an image I found online. It is a picture that represents STEM. -->
+         <img src="https://www.nsf.gov/news/mmg/media/images/shutterstock_497153830_f.jpg" style="padding-left: 25%;">
+  </div>
+
+  <!--Our mascot-->
+  <div id="Mascot" class="Mascot_">
+      <!--This div tag has the id "Mascot" and the class "Mascot_". The id is so if you click on the
+        navbar you can scroll to this section. The class is where I put all the Css. I wanted to put an id
+    instead of a class because I'm only going to use this once, but elements can only have one id.  -->
+    <h1>Our Mascot:</h1>
+    <p>Our team’s mascot is a cute little bunny. He always boosts our morale and 
+      brings us good luck. His name is Bob.</p>
+    <img src="bunny.png"> <!--Mascot image-->
+  </div>
+
+  <!--Members-->
+<div id="Members" class="Members">
+    <!--The members is split into two portions: the description and the table. 
+    the description has the "Members_top" class. Again, I put an id so you can click on the navbar to scroll. -->
+  <div class="Members_top">
+    <h1>Members:</h1>
+    <h2>There are a total of 8 members in our team. </h2>
+  </div>
+
+  <!--Table for the members-->
+  <div style="margin-left: -12%;">
+    <table class="table_1">
+      <tr>
+        <th><!--Empty! This is the column that contains labels such as name, grade, etc. so I didn't put
+        an image. -->
+        </th>
+        <!--Images of the first row of members: I split the members into 2 rows because I couldn't fit
+        all of the members in one row-->
+        <td>
+          <div style="background-image: url('aldric.png'); width:200px; height:200px; background-position:center;"></div>
+        </td>
+        <td>
+          <div style="background-image: url('alex.jpg'); width:200px; height:200px; background-position:center;"></div>
+        </td>
+        <td>
+          <div style="background-image: url('harish3.png'); width:200px; height:200px; background-position:center;"></div>
+        </td>
+        <td>
+          <div style="background-image: url('krish2.png'); width:200px; height:200px; background-position:center;"></div>
+        </td>
+      </tr>
+      <!--Name-->
+      <tr>
+        <th>Name:</th>
+        <th>Aldric B</th>
+        <th>Alex W</th>
+        <th>Harish L</th>
+        <th>Krish S</th>
+      </tr>
+      <!--Grade-->
+      <tr style="font-size: 20px; text-align: center;">
+        <th>Grade:</th>
+        <td>8</td>
+        <td>9</td>
+        <td>9</td>
+        <td>9</td>
+      </tr>
+      <!--School-->
+      <tr style="font-size: 18px; text-align: center;">
+        <th >School:</th>
+        <td>Community Middle School</td>
+        <td>High School North</td>
+        <td>Livington High School</td>
+        <td>Manalapan High School</td>
+      </tr>
+      <tr>
+          <!--Hobbies and Interests-->
+        <th>Hobbies/Interests:</th>
+        <td>
+          <ul> <!--I used bullet points for each person so it is organized. I also didn't 
+        align the text to center. It is left aligned by default, which is what I want. -->
+            <li>Astronomy</li>
+            <li>Kpop</li>
+            <li>Quizbowl</li>
+            <li>ScienceBowl</li>
+            <li>Scioly</li>
+            <li>Olympiads</li>
+            <li>Earth Science</li>
+            <li>Geology</li>
+            <li>Physics</li>
+            <li>Math</li>
+            <li>Astrophotography</li>
+            <li>Astrophysics</li>
+            <li>Geography</li>
+            <li>Chess</li>
+            <li>Twice</li>
+            <li>Nayeon</li>
+
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Chess</li>
+            <li>Piano</li>
+            <li>Math</li>
+            <li>Drawing</li>
+            <li>Violin</li>
+            <li>Science</li>
+            <li>History</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Math</li>
+            <li>Math Competitions</li>
+            <li>Video Games</li>
+            <li>Violin</li>
+            <li>Scioly</li>
+            <li>Science</li>
+            <li>Physics</li>
+            <li>Chess</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Piano</li>
+            <li>Coding</li>
+            <li>Math</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>
+
+
+            <!--Row 2: row 2's structure is exactly the same as row 1's structure-->
+        </th>
+        <td>
+          <div style="background-image: url('johnson.png'); width:200px; height:200px; background-position:center;"></div>
+        
+        </td>
+        <td>
+          <div style="background-image: url('raj.jpeg'); width:200px; height:200px; background-position:center;"></div>
+        </td>
+        <td>
+          <div style="background-image: url('tanav.png'); width:200px; height:200px; background-position:center;"></div>
+        </td>
+        <td>
+          <div style="background-image: url('stuti.jpg'); width:200px; height:200px; background-position:center;"></div>
+        </td>
+      </tr>
+      <tr>
+        <th>Name:</th>
+        <th>Johnson L</th>
+        <th>Raj V</th>
+        <th>Tanav G</th>
+        <th>Stuti D</th>
+      </tr>
+      <tr style="font-size: 20px; text-align: center;">
+        <th>Grade:</th>
+        <td>9</td>
+        <td>9</td>
+        <td>9</td>
+        <td>8</td>
+      </tr>
+      <tr style="font-size: 20px; text-align: center;">
+        <th>School:</th>
+        <td>High School North</td>
+        <td>High School North</td>
+        <td>High School North</td>
+        <td>Community Middle School</td>
+      </tr>
+    
+      <tr>
+        <th>Hobbies/Interests:</th>
+        <td>
+          <ul>
+            <li>Owls</li>
+            <li>Rock music</li>
+            <li>Playing piano</li>
+            <li>Swimming</li>
+            <li>Quizbowl</li>
+            <li>Histobowl</li>
+          </ul>  
+        </td>
+        <td>
+          <ul>
+            <li>Chess</li>
+            <li>Swimming</li>
+            <li>Soccer</li>
+            <li>Cricket</li>
+            <li>Math</li>
+            <li>Quiz Bowl</li>
+            <li>Science Bowl</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Music Composing</li>
+            <li>Music in general</li>
+            <li>Chess</li>
+            <li>SpeedCubing</li>
+            <li>Playing the Viola</li>
+          </ul>
+         
+        </td>
+        <td>
+           <ul>
+            <li>Photography</li>
+            <li>Graphic Design</li>
+            <li>Heredity</li>
+          </ul>
+        </td>
+      </tr>
+
+    </table>
+  </div>
+</div>
+
+
+<!--Our team captain: Srivant-->
+<div id="Srivant" class="SrivantClass">
+     <!--I added srivant as the Id because it is shorter than "Team Captain" and it is easier to remember
+    css is in the class SrivantClass-->
+  <h1>Our Team Captain: Srivant Pothuraju</h1>
+
+   <!--Text explaining who is Srivant-->
+  <h3 class="SrivantText">Who is Srivant?</h3>
+  <p>Srivant is a rising junior in High School North. Srivant Pothuraju was the captain for the Community Middle School Science Olympiad 
+    team for 2019-2020. He has also placed nationally in Science Olympiad, getting a 3rd overall score during 
+    2018-2019 year. Srivant has a lot of mentorship experience from training current members of the 
+    CMS Science Olympiad team and teaching a bunch of Sciovirtual courses. He was on the WW-P High School 
+    North Science Olympiad team in 2020-2021, participating in primarily physics events (Machines, Circuit 
+    Lab, Sounds of Music). Srivant has helped Team Nayeon in several ways such as organizing practices and 
+    assisting members in need. </p>
+     <!--WWP High School North logo-->
+    <img style="padding-left: 50%;" src="2021-07-28.png" >
+  
+   <!--Background info about Srivant-->
+    <h3 class="SrivantText">Background Information about Srivant:</h3>
+  
+  <ol>
+    <li><b>School:</b> High School North</p></li>
+    <li><b>Grade:</b> 11th (Rising Junior)</p></li>
+    <li><b>Favorite Subject: </b>Science</p></li>
+    <li><b>Hobbies and Interests:</b> 
+          <ul>
+            <li>Physics</li>
+            <li>Tennis</li>
+            <li>Math</li>
+            <li>Chess</li>
+            <li>Scioly</li>
+          </ul></p></li>
+  </ol>
+   <!--This is a picture of srivant-->
+   <img style="padding-left: 10%;" src="srivant.png" height=300px; width=auto;>
+   <!--The image represents physics, which is one of Srivant's interests-->
+  <img style="padding-left: 25%;" src="https://physics.aps.org/assets/6016ee1b-56d0-4a3d-9c9e-633b536f13dd/es61_thumb_1.png" >
+
+</div>
+
+
+<!--Contact Info:-->
+<div id="Contact" class="ContactClass">
+  <h1>Contact:</h1>
+
+   <!--First section: listing out the email and youtube channnel-->
+  <p>
+    <ul>
+      <li><b>E-mail:</b> sciovirtualteamsrivant@gmail.com </p></li>
+      <li><b>Youtube Channel:</b> https://www.youtube.com/channel/UCbiKzhlJKY43qHIrThbzV8A </p></li>
+    </ul>
+  </p>
+  <h2>Links:</h2>
+  <!--I added buttons so the user can just click on them to go to each link-->
+    <a class="button1" href="https://www.youtube.com/channel/UCbiKzhlJKY43qHIrThbzV8A" target="_blank"><b>YT Channel</b></a>
+    <a class="button2" href="mailto:sciovirtualteamsrivant@gmail.com" target="_blank"><b>E-mail</b></a>
+
+     <!--This isn't a rick roll; it's something MUCH better ;) -->
+    <a class="button3" href="https://www.youtube.com/watch?v=sShtlxdJF58" target="_blank"><b>Something Cooler than Rick Roll</b></a>
+</div>
+
+ <!--Footer-->
+<footer class="Footer">
+     <!--This is sciovirtual's website because Team Nayeon is part of sciocamp-->
+  <h3>Sciovirtual Website: 
+  <a style="color: rgb(255, 140, 140);" href="https://sciovirtual.org/" target="_blank">https://sciovirtual.org/</a>
+  </h3> 
+
+   <!--Copyright-->
+  <p style="float:inline-end;">© Copyright 2021 Team Nayeon</p>
+</footer>
+
+  </body>
+</html>
